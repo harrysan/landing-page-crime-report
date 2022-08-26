@@ -1,0 +1,248 @@
+/**************************/
+/* HEADER */
+/**************************/
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #242223;
+  
+    /* Because we want header to be sticky later */
+    height: 9.6rem;
+    padding: 0 4.8rem;
+    position: relative;
+  }
+  
+  .logo {
+    height: 6rem;
+}
+
+/**************************/
+/* NAVBAR */
+/**************************/
+.main-nav {
+    display: flex;
+}
+
+.main-nav-list {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 4.8rem;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #d9d8d4;
+  font-weight: 700;
+  font-size: 1.8rem;
+  transition: all 0.3s;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: #f3d503;
+}
+
+.nav-div a {
+    font-weight: 700;
+    font-size: 1.8rem;
+}
+
+/**************************/
+/* HERO SECTION */
+/**************************/
+
+.section-hero {
+    background-image: url("../img/police-new.png");
+    /* filter: brightness(10); */
+}
+
+/* .hero-img {
+    width: 100%;
+    height: 80rem;
+    z-index: -1;
+    position: absolute;
+} */
+
+.hero-logo {
+    height: 9rem;
+}
+
+.hero-content-center {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.hero-content-img {
+    /* height: 50%; */
+    justify-content: flex-end;
+    margin-top: 8rem;
+}
+
+.hero-content-center-left {
+    margin-top: 4.8rem;
+}
+
+.hero-content-center-right {
+    padding: 0 4.8rem 0 4.8rem;
+}
+
+.hero-section-content-img {
+    width: 100%;
+}
+
+.hero-description {
+    font-size: 2.4rem;
+    font-weight: 500;
+    line-height: 1.6;
+    margin-bottom: 4.8rem;
+    color: #f3d503;
+  }
+
+/**************************/
+/* PARTNERSHIP SECTION */
+/**************************/
+.section-partnership {
+    padding: 4.8rem 0 4.8rem 0;
+}
+
+.heading-partnership {
+    font-size: 2.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.75px;
+    font-weight: 600;
+    color: #242223;
+    margin-bottom: 3.2rem;
+}
+
+.logos {
+    display: flex;
+    justify-content: space-around;
+}
+
+.logos img {
+    height: 6.4rem;
+    /* filter: brightness(0); */
+    opacity: 50%;
+}
+
+/**************************/
+/* FEATURES SECTION */
+/**************************/
+.section-feature {
+    padding: 4.8rem 0 7.2rem 0;
+    color: #4b494a;
+}
+
+.feature-img {
+    box-shadow: 2.8rem 2.8rem 4.8rem rgba(0, 0, 0, 0.075);
+}
+
+.feature-img img{
+    width: 100%;
+}
+
+/**************************/
+/* SECURE SECTION */
+/**************************/
+.section-secure {
+    padding: 4.8rem 0 4.8rem 0;
+    background-color: #4b494a;
+}
+
+.secure-img {
+    padding: 0 9.6rem 4.8rem 9.6rem;
+}
+
+.secure-img img {
+    width: 100%;
+}
+
+/**************************/
+/* WHAT YOU REPORT SECTION */
+/**************************/
+.section-what-you-report {
+    padding: 4.8rem 0 4.8rem 0;
+}
+
+.section-what-you-report h3 {
+    color: #4b494a;
+}
+
+.heading-report {
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.75px;
+    font-weight: 500;
+    color: #242223;
+    margin-bottom: 3.2rem;
+}
+
+/**************************/
+/* CASES SECTION */
+/**************************/
+.report-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 4.8rem;
+}
+
+.div-cases-img img {
+    display: block;
+    width: 100%;
+    transition: all 0.4s;
+}
+
+.div-cases-img img:hover {
+    transform: scale(1.05);
+  }
+
+.div-cases-img h3 {
+    margin-top: 1.2rem;
+}
+
+/**************************/
+/* FOOTER */
+/**************************/
+.footer {
+    padding: 12.8rem 0;
+    border-top: 1px solid #eee;
+}
+
+.grid--footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.footer-img {
+    width: 60%;
+}
+
+.footer-links {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.links-grid {
+    display: flex;
+    padding: 1.8rem 0;
+    gap: 1.2rem;
+    list-style: none;
+    align-items: center;
+}
+
+.links-grid img {
+    opacity: 60%;
+}
+
+.copyright {
+    font-size: 1.8rem;
+    line-height: 1.6;
+    color: #767676;
+    padding: 4.8rem 0 4.8rem 0;
+    margin-top: auto;
+  }
